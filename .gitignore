@@ -1,0 +1,40 @@
+#Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+venv310/
+.env
+
+#macOS
+.DS_Store
+
+#Logs
+*.log
+
+#Data Files
+data/raw/*
+data/processed/*
+
+#Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+#Model Artifacts
+models/
+*.pkl
+*.joblib
+
+#IDE
+.vscode/
+.idea/
+
+#temp files
+tmp/
+temp/
