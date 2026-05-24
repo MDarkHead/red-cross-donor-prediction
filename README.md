@@ -72,14 +72,14 @@ These metrics are:
 - Higher donor conversion rates
 
 ## Project Workflow
-0. Project Framing
-1. Data Cleaning
-2. Exploratory Data Analysis
-3. Feature Engineering
-4. Baseline Modeling
-5. Model Evaluation
-6. Model Optimization
-7. Business Recommendations
+- 0. Project Framing
+- 1. Data Cleaning
+- 2. Exploratory Data Analysis
+- 3. Feature Engineering
+- 4. Baseline Modeling
+- 5. Model Evaluation
+- 6. Model Optimization
+- 7. Business Recommendations
 
 ## Roadmap
 Phase 0 - Project Framing
