@@ -72,26 +72,26 @@ These metrics are:
 - Higher donor conversion rates
 
 ## Project Workflow
-- 0. Project Framing
-- 1. Data Cleaning
-- 2. Exploratory Data Analysis
-- 3. Feature Engineering
-- 4. Baseline Modeling
-- 5. Model Evaluation
-- 6. Model Optimization
-- 7. Business Recommendations
+0. Project Framing
+1. Data Cleaning
+2. Exploratory Data Analysis
+3. Feature Engineering
+4. Baseline Modeling
+5. Model Evaluation
+6. Model Optimization
+7. Business Recommendations
 
 ## Roadmap
-Phase 0 - Project Framing
-Phase 1 - Data Cleaning
-Phase 2 - EDA + Insights
-Phase 3 - Dython Analysis
-Phase 4 - Tableau Dashboard
-Phase 5 - Feature Engineering
-Phase 6 - Classification Modeling
-Phase 7 - Model Interpretability & Insights
-Phase 8 - Business Recommendations 
-Phase 9 - Portfolio Packaging & Final Deliverables
+- Phase 0: Project Framing
+- Phase 1: Data Cleaning
+- Phase 2: EDA + Insights
+- Phase 3: Dython Analysis
+- Phase 4: Tableau Dashboard
+- Phase 5: Feature Engineering
+- Phase 6: Classification Modeling
+- Phase 7: Model Interpretability & Insights
+- Phase 8: Business Recommendations 
+- Phase 9: Portfolio Packaging & Final Deliverables
 
 ## Tools & Technologies
 ### Languages
