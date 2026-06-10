@@ -5,7 +5,7 @@ By analyzing historical donor and engagement data, the project aims to improve o
 
 ## Roadmap
 - Phase 0: Project Framing ✅
-- Phase 1: Data Cleaning
+- Phase 1: Data Cleaning ✅
 - Phase 2: EDA + Insights
 - Phase 3: Dython Analysis
 - Phase 4: Tableau Dashboard
