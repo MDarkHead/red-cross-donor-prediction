@@ -112,7 +112,7 @@ Converted from string format to datetime format during validation and quality as
 
 ### Underage Donor Decision
 Records with `donor_age` < 16 were removed from the dataset because:
-- Individuals younger than 16 are unlikely to represent independent donor decision making.
+- Individuals younger than 16 are below the minimum Red Cross donation age requirements and were therefore removed from the dataset.
 - The affected records represented only 0.304% of the dataset and had a minimal impact on overall sample size.
 
 Impact:
