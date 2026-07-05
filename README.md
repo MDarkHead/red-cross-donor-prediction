@@ -1,12 +1,11 @@
 # Red Cross Donor Prediction
 ## Overview
-This project develops an end to end machine learning pipeline to predict donor likelihood for the DFW Red Cross Chapter. The goal is to improve the effectiveness of outreach teams by helping them focus on likely donors and optimize the allocation of organizational resources.
-By analyzing historical donor and engagement data, the project aims to improve outreach efforts and increase donor participation. 
+This project develops an end-to-end machine learning pipeline to predict donor likelihood for the DFW Red Cross Chapter. By analyzing historical donor and engagement data, the project aims to improve the effectiveness of outreach efforts by helping teams identify likely donors and optimize the allocation of organizational resources.
 
 ## Roadmap
 - Phase 0: Project Framing ✅
 - Phase 1: Data Cleaning ✅
-- Phase 2: EDA + Insights
+- Phase 2: Exploratory Data Analysis ✅
 - Phase 3: Dython Analysis
 - Phase 4: Tableau Dashboard
 - Phase 5: Feature Engineering
@@ -25,6 +24,7 @@ By analyzing historical donor and engagement data, the project aims to improve o
 - Scikit-learn
 - Matplotlib
 - Seaborn
+- Dython
 - XGBoost
 
 ### Environment
@@ -37,8 +37,6 @@ red-cross-donor-prediction/
 │
 ├── README.md
 ├── requirements.txt
-├── insights.md
-├── business_recommendations.md
 │
 ├── data/
 │   ├── raw/
@@ -61,8 +59,9 @@ red-cross-donor-prediction/
 │   └── donor_dashboard.twbx
 │
 ├── reports/
-│   ├── project_slides.pdf
-│   └── final_report.pdf
+│   ├── 00_project_framing.md
+│   ├── 01_data_cleaning.md
+│   └── 02_exploratory_data_analysis.md
 │
 └── src/
     ├── preprocessing.py
@@ -80,9 +79,9 @@ A successful predictive system could help the Red Cross:
   - Better allocate volunteer and marketing resources
 
 ## Future Improvements
-- Deploy model through an interactive dashboard
-- Add geographic visualization
-- Perform donor segmentation using clustering techniques
+- Deploy the final predictive model through an interactive dashboard.
+- Incorporate geographic visualization into donor outreach analysis.
+- Explore donor segmentation using unsupervised learning techniques (e.g., clustering).
 
 ## Dataset Notice
 The dataset used in this project was provided for educational and analytical purposes through DDSA and the DFW Red Cross Chapter.
