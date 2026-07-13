@@ -6,7 +6,7 @@ This project develops an end-to-end machine learning pipeline to predict donor l
 - Phase 0: Project Framing ✅
 - Phase 1: Data Cleaning ✅
 - Phase 2: Exploratory Data Analysis ✅
-- Phase 3: Dython Analysis
+- Phase 3: Dython Analysis ✅
 - Phase 4: Tableau Dashboard
 - Phase 5: Feature Engineering
 - Phase 6: Classification Modeling
@@ -61,7 +61,8 @@ red-cross-donor-prediction/
 ├── reports/
 │   ├── 00_project_framing.md
 │   ├── 01_data_cleaning.md
-│   └── 02_exploratory_data_analysis.md
+│   ├── 02_exploratory_data_analysis.md
+│   └── 03_dython_analysis.md
 │
 └── src/
     ├── preprocessing.py
