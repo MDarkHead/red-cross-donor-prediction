@@ -102,6 +102,8 @@ Variables requiring additional evaluation before predictive modeling:
 - Their inclusion should be evaluated after the prediction timeframe has been finalized.
 - If necessary, engineered features derived solely from historical information should be considered as alternatives.
 
+### Modeling Decision
+Based on the observed associations and potential for information leakage, cumulative_donation_amount will not be considered for predictive modeling during subsequent project phases. The variable will remain available for descriptive analysis and business reporting but will be excluded from the modeling feature set pending the final target definition.
 
 ## Feature Engineering Recommendations
 ### High-Priority Features
@@ -111,11 +113,12 @@ Variables requiring additional evaluation before predictive modeling:
 - `donation_3_fiscal_years_ago`
 - `donation_4_fiscal_years_ago`
 - `donation_5_fiscal_years_ago`
-- `current_fiscal_year_donation` *(pending leakage assessment)*
-- `cumulative_donation_amount` *(pending leakage assessment)*
+- `current_fiscal_year_donation` 
 - `is_alumnus_flag`
 - `has_involvement_flag`
 - `has_email_flag`
+
+`cumulative_donation_amount` is intentionally excluded from the recommended modeling feature set due to its potential for information leakage. The variable will continue to be used for descriptive analysis and business reporting.
 
 ### Moderate-Priority Features
 - `donor_age`
@@ -123,7 +126,9 @@ Variables requiring additional evaluation before predictive modeling:
 - `gender_identity`
 - `is_parent_flag`
 
-These recommendations represent candidate features for further investigation during Phase 5 rather than the finalized modeling feature set.
+These recommendations represent candidate features for further investigation during Phase 5 rather than the finalized modeling feature set. 
+
+Based on the observed concentration of cumulative donations among a small number of donors, additional engineered features such as a `major_donor_flag` and log-transformed donation variables will be explored during Phase 5.
 
 
 ## Overall Findings
@@ -148,6 +153,8 @@ Several limitations should be considered when interpreting the Dython analysis:
 The Dython analysis identified several opportunities for Phase 5 Feature Engineering, including:
 - Evaluating highly associated donation history variables.
 - Engineering aggregate donation history features.
+- Creating a `major_donor_flag` based on historical donation behavior.
+- Applying logarithmic transformations to highly skewed donation variables.
 - Assessing leakage-sensitive variables.
 - Investigating feature redundancy.
 - Refining engagement-related predictors.
@@ -156,7 +163,7 @@ These recommendations will be evaluated further during Phase 5 before model deve
 
 
 ## Phase 3 Outcome
-The Dython analysis successfully quantified statistical associations among numerical, categorical, and binary variables throughout the donor dataset and validated the major findings identified during exploratory data analysis.
+The Dython analysis successfully quantified statistical associations among numerical, categorical, and binary variables throughout the donor dataset and provided quantitative evidence supporting the major findings identified during exploratory data analysis.
 
 Key implementations:
 - Mixed-type association analysis
