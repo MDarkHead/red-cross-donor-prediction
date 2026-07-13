@@ -3,16 +3,16 @@
 This project develops an end-to-end machine learning pipeline to predict donor likelihood for the DFW Red Cross Chapter. By analyzing historical donor and engagement data, the project aims to improve the effectiveness of outreach efforts by helping teams identify likely donors and optimize the allocation of organizational resources.
 
 ## Roadmap
-- Phase 0: Project Framing ✅
-- Phase 1: Data Cleaning ✅
-- Phase 2: Exploratory Data Analysis ✅
-- Phase 3: Dython Analysis ✅
-- Phase 4: Tableau Dashboard
-- Phase 5: Feature Engineering
-- Phase 6: Classification Modeling
-- Phase 7: Model Interpretability & Insights
-- Phase 8: Business Recommendations 
-- Phase 9: Portfolio Packaging & Final Deliverables
+- Phase 0 — Project Framing ✅
+- Phase 1 — Data Cleaning ✅
+- Phase 2 — EDA + Insights ✅
+- Phase 3 — Dython Analysis ✅
+- Phase 4 — Feature Engineering
+- Phase 5 — Classification Modeling
+- Phase 6 — Model Interpretability & Insights
+- Phase 7 — Tableau Dashboard
+- Phase 8 — Business Recommendations
+- Phase 9 — Portfolio Packaging & Final Deliverables
 
 ## Tools & Technologies
 ### Languages
