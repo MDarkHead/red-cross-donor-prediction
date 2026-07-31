@@ -448,8 +448,20 @@ Several limitations should be considered when using the engineered dataset:
 - Historical donation value covers five observed years and should not be described as complete lifetime value.
 - Donation variables contain major outliers and heavy skew.
 - Geographic variables require separate evaluation because of high cardinality, privacy, and fairness concerns.
-- The target is highly imbalanced.
+- The primary future-donation target is highly imbalanced.
 - Weak individual feature relationships do not determine final model usefulness.
+
+
+## Revisions
+A review of the prediction target confirmed that the target definition represents an intentional modeling decision rather than a feature-engineering error.
+
+`target_current_fiscal_year_donor_flag` will remain the primary target because it supports the forward-looking objective of predicting whether an individual donates during the current fiscal year. This target is highly imbalanced, with 1,904 donors (5.53%) and 32,499 non-donors (94.47%).
+
+The original `donor_indicator_flag` will be evaluated as a secondary benchmark during Phase 5 to support comparison with the rest of the cohort. Because the two targets represent different modeling objectives and class distributions, their results will be evaluated and reported separately.
+
+Before the original flag is modeled, its construction must be verified. If it was derived from the historical donation columns, those predictors may need to be excluded from the benchmark model to prevent circular prediction or target leakage.
+
+No existing Phase 4 features, feature dictionary entries, or exported datasets were changed. The secondary target and its corresponding predictor set will be defined during Phase 5.
 
 
 ## Transition to Classification Modeling
@@ -461,6 +473,8 @@ Phase 4 produced several inputs for Phase 5 Classification Modeling, including:
 - A complete feature dictionary
 - A list of timing-sensitive features requiring confirmation
 - Clear separation between feature creation and learned preprocessing
+
+Phase 5 will use `target_current_fiscal_year_donor_flag` as the primary modeling target and evaluate `donor_indicator_flag` as a separate benchmark. The two targets will be modeled and reported separately because they represent different objectives and class distributions.
 
 Phase 5 will split the data before fitting preprocessing, compare feature-set variants, evaluate multiple model types, address class imbalance using training-only methods, and select models using appropriate classification metrics.
 
