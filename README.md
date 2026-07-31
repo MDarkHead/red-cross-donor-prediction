@@ -7,7 +7,7 @@ This project develops an end-to-end machine learning pipeline to predict donor l
 - Phase 1 — Data Cleaning ✅
 - Phase 2 — EDA + Insights ✅
 - Phase 3 — Dython Analysis ✅
-- Phase 4 — Feature Engineering
+- Phase 4 — Feature Engineering ✅
 - Phase 5 — Classification Modeling
 - Phase 6 — Model Interpretability & Insights
 - Phase 7 — Tableau Dashboard
@@ -16,7 +16,7 @@ This project develops an end-to-end machine learning pipeline to predict donor l
 
 ## Tools & Technologies
 ### Languages
-- Python
+- Python 3.10
 
 ### Libraries
 - Pandas
@@ -25,6 +25,9 @@ This project develops an end-to-end machine learning pipeline to predict donor l
 - Matplotlib
 - Seaborn
 - Dython
+- Pathlib
+- re
+- PyArrow
 - XGBoost
 
 ### Environment
@@ -37,13 +40,15 @@ red-cross-donor-prediction/
 │
 ├── README.md
 ├── requirements.txt
+├── LICENSE
 │
 ├── data/
 │   ├── raw/
-│   │   └── donor_data.csv
+│   │   └── .gitkeep
 │   ├── processed/
-│   │   └── cleaned_donor_data.csv
+│   │   └── .gitkeep
 │   └── external/
+│       └── .gitkeep
 │
 ├── notebooks/
 │   ├── 00_project_framing.ipynb
@@ -62,15 +67,26 @@ red-cross-donor-prediction/
 │   ├── 00_project_framing.md
 │   ├── 01_data_cleaning.md
 │   ├── 02_exploratory_data_analysis.md
-│   └── 03_dython_analysis.md
+│   ├── 03_dython_analysis.md
+│   ├── 04_feature_engineering.md
+│   └── feature_dictionary.csv
 │
 └── src/
     ├── preprocessing.py
     ├── feature_engineering.py
     ├── modeling.py
-	├── utils.py
+    ├── utils.py
     └── evaluation.py
 ```
+
+
+## Modeling Strategy
+The primary modeling target predicts whether an individual donates during the dataset's current fiscal year using information from the five completed historical fiscal years. This creates a forward-looking classification problem with a positive-class rate of 5.53%.
+
+The original `donor_indicator_flag` will also be evaluated as a separate historical donor-status benchmark during Phase 5. Because the two targets represent different objectives and class distributions, their results will be modeled and reported separately.
+
+Phase 4 produced a leakage-safe modeling dataset containing 34,403 records, 53 safe predictors, one tracking identifier, and one primary binary target. A 77-field feature dictionary documents each field's source, calculation, timing, leakage status, and business meaning.
+
 
 ## Expected Business Impact
 A successful predictive system could help the Red Cross:
@@ -87,7 +103,7 @@ A successful predictive system could help the Red Cross:
 ## Dataset Notice
 The dataset used in this project was provided for educational and analytical purposes through DDSA and the DFW Red Cross Chapter.
 
-Due to privacy, confidentiality, and data usage considerations, the raw dataset is not included in this repository.
+Due to privacy, confidentiality, and data usage considerations, the raw, cleaned, engineered, and prediction-level donor datasets are not included in this repository. These files remain stored locally and are excluded through `.gitignore`.
 
 This repository contains only:
 - Project code
