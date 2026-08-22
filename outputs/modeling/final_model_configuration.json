@@ -1,0 +1,32 @@
+{
+    "primary": {
+        "target": "target_current_fiscal_year_donor_flag",
+        "model": "RF Moderate",
+        "configuration_id": "rf_depth_14",
+        "probability_version": "Uncalibrated",
+        "feature_set": "Aggregate RFM",
+        "source_feature_count": 8,
+        "operating_threshold": 0.06542368672155528,
+        "random_state": 121,
+        "test_size": 0.2,
+        "cv_folds": 5,
+        "primary_metric": "average_precision",
+        "outreach_capacities": [
+            0.01,
+            0.05,
+            0.1,
+            0.2
+        ]
+    },
+    "benchmark": {
+        "target": "donor_indicator_flag",
+        "purpose": "Historical donor status cohort comparison only",
+        "model": "Decision Tree",
+        "predictor_count": 16,
+        "classification_threshold": 0.5,
+        "random_state": 122,
+        "test_size": 0.2,
+        "cv_folds": 5,
+        "primary_metric": "roc_auc"
+    }
+}
