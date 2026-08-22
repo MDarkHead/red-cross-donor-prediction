@@ -38,3 +38,6 @@ models/
 #temp files
 tmp/
 temp/
+
+# Private donor-level outputs
+outputs/private/
