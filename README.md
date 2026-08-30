@@ -35,18 +35,13 @@ This project develops an end-to-end machine learning pipeline to predict donor l
 ## Repository Structure
 ```
 red-cross-donor-prediction/
-│
-├── README.md
-├── requirements.txt
 ├── LICENSE
+├── README.md
 │
 ├── data/
-│   ├── raw/
-│   │   └── .gitkeep
+│   ├── external/
 │   ├── processed/
-│   │   └── .gitkeep
-│   └── external/
-│       └── .gitkeep
+│   └── raw/
 │
 ├── notebooks/
 │   ├── 00_project_framing.ipynb
@@ -55,26 +50,35 @@ red-cross-donor-prediction/
 │   ├── 03_dython_analysis.ipynb
 │   ├── 04_feature_engineering.ipynb
 │   ├── 05_modeling.ipynb
-│   ├── 06_model_interpretability.ipynb
-│   └── 07_business_recommendations_report.ipynb
+│   └── 06_model_interpretability.ipynb
 │
-├── tableau/
-│   └── donor_dashboard.twbx
+├── outputs/
+│   ├── modeling/
+│   │   ├── benchmark_model_comparison.csv
+│   │   ├── benchmark_test_metrics.csv
+│   │   ├── environment_versions.json
+│   │   ├── final_feature_lists.json
+│   │   ├── final_model_configuration.json
+│   │   ├── hyperparameter_cv_results.csv
+│   │   ├── model_shortlist_cv_comparison.csv
+│   │   ├── modeling_artifact_manifest.csv
+│   │   ├── primary_final_test_metrics.csv
+│   │   ├── primary_final_test_outreach_results.csv
+│   │   └── requirements_modeling.txt
+│   └── private/
 │
 ├── reports/
-│   ├── 00_project_framing.md
-│   ├── 01_data_cleaning.md
-│   ├── 02_exploratory_data_analysis.md
-│   ├── 03_dython_analysis.md
-│   ├── 04_feature_engineering.md
-│   └── feature_dictionary.csv
+│   ├── feature_dictionary.csv
+│   ├── FullReports/
+│   └── SummaryReports/
+│       ├── 01_data_cleaning.md
+│       ├── 02_exploratory_data_analysis.md
+│       ├── 03_dython_analysis.md
+│       ├── 04_feature_engineering.md
+│       └── 05_classification_modeling.md
 │
-└── src/
-    ├── preprocessing.py
-    ├── feature_engineering.py
-    ├── modeling.py
-    ├── utils.py
-    └── evaluation.py
+├── tableau/
+└── visuals/
 ```
 
 
