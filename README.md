@@ -8,27 +8,25 @@ This project develops an end-to-end machine learning pipeline to predict donor l
 - Phase 2 — EDA + Insights ✅
 - Phase 3 — Dython Analysis ✅
 - Phase 4 — Feature Engineering ✅
-- Phase 5 — Classification Modeling
+- Phase 5 — Classification Modeling ✅
 - Phase 6 — Model Interpretability & Insights
 - Phase 7 — Tableau Dashboard
-- Phase 8 — Business Recommendations
-- Phase 9 — Portfolio Packaging & Final Deliverables
+- Phase 8 — Portfolio Packaging & Final Deliverables
 
 ## Tools & Technologies
 ### Languages
-- Python 3.10
+- Python 3.14
 
 ### Libraries
 - Pandas
 - NumPy
 - Scikit-learn
+- imbalanced-learn
 - Matplotlib
 - Seaborn
 - Dython
-- Pathlib
-- re
 - PyArrow
-- XGBoost
+- Joblib
 
 ### Environment
 - Jupyter Notebook
