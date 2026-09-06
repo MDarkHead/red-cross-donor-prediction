@@ -1,0 +1,12 @@
+Setting,Value
+Primary Target,target_current_fiscal_year_donor_flag
+Model Status,Frozen Phase 5 pipeline
+Primary Metric,average_precision
+Score Interpretation,Uncalibrated donor ranking score
+Operating Threshold,0.065423686721555
+Outreach Capacities,"1%, 5%, 10%, 20%"
+Stability Bootstrap Iterations,500
+Fairness Minimum Class Count,20
+Identifier Use,Alignment only
+Causal Interpretation,Not permitted
+Historical Benchmark Scope,Separate cohort comparison only
