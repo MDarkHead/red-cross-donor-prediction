@@ -1,0 +1,9 @@
+Importance Rank,Source Feature,Business-Friendly Label,Representation,Transformed Columns,Category Levels,Built In Importance,Mapped Transformed Columns,Importance Percentage,Cumulative Importance Percentage
+1,donor_age,Donor Age,Numeric,1,Not applicable,0.25219195968240277,1,25.219195968240278,25.219195968240278
+2,feature_past_5yr_total_donation,Total Donation Amount (Past 5 Years),Numeric,1,Not applicable,0.2088247980245213,1,20.88247980245213,46.10167577069241
+3,feature_past_5yr_average_donation,Average Donation Amount (Past 5 Years),Numeric,1,Not applicable,0.2083995830042914,1,20.83995830042914,66.94163407112154
+4,feature_past_5yr_max_donation,Maximum Annual Donation Amount (Past 5 Years),Numeric,1,Not applicable,0.1847008408333689,1,18.47008408333689,85.41171815445843
+5,feature_years_since_last_donation_past_5yr,Years Since Most Recent Donation,Numeric,1,Not applicable,0.04696957646243296,1,4.696957646243296,90.10867580070172
+6,feature_gender_identity,Gender Identity,One-Hot Encoded,3,"Female, Male, Unknown",0.03818658245264113,3,3.818658245264113,93.92733404596584
+7,feature_preferred_address_type,Preferred Address Type,One-Hot Encoded,5,"Business Address, Campus Address, Home Address, Missing, Other Address Type",0.03203856811284213,5,3.2038568112842127,97.13119085725005
+8,feature_past_5yr_donation_frequency_rate,Donation Frequency Rate (Past 5 Years),Numeric,1,Not applicable,0.028688091427499597,1,2.8688091427499596,100.0
