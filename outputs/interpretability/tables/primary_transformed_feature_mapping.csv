@@ -1,0 +1,15 @@
+Transformed Position,Transformed Feature,Source Feature,Representation,Category Level,Business-Friendly Label
+1,donor_age,donor_age,Numeric,Not applicable,Donor Age
+2,feature_past_5yr_total_donation,feature_past_5yr_total_donation,Numeric,Not applicable,Total Donation Amount (Past 5 Years)
+3,feature_past_5yr_average_donation,feature_past_5yr_average_donation,Numeric,Not applicable,Average Donation Amount (Past 5 Years)
+4,feature_past_5yr_max_donation,feature_past_5yr_max_donation,Numeric,Not applicable,Maximum Annual Donation Amount (Past 5 Years)
+5,feature_past_5yr_donation_frequency_rate,feature_past_5yr_donation_frequency_rate,Numeric,Not applicable,Donation Frequency Rate (Past 5 Years)
+6,feature_years_since_last_donation_past_5yr,feature_years_since_last_donation_past_5yr,Numeric,Not applicable,Years Since Most Recent Donation
+7,feature_gender_identity_Female,feature_gender_identity,One-Hot Encoded,Female,Gender Identity: Female
+8,feature_gender_identity_Male,feature_gender_identity,One-Hot Encoded,Male,Gender Identity: Male
+9,feature_gender_identity_Unknown,feature_gender_identity,One-Hot Encoded,Unknown,Gender Identity: Unknown
+10,feature_preferred_address_type_Business,feature_preferred_address_type,One-Hot Encoded,Business Address,Preferred Address Type: Business Address
+11,feature_preferred_address_type_Campus,feature_preferred_address_type,One-Hot Encoded,Campus Address,Preferred Address Type: Campus Address
+12,feature_preferred_address_type_Home,feature_preferred_address_type,One-Hot Encoded,Home Address,Preferred Address Type: Home Address
+13,feature_preferred_address_type_Missing,feature_preferred_address_type,One-Hot Encoded,Missing,Preferred Address Type: Missing
+14,feature_preferred_address_type_Other,feature_preferred_address_type,One-Hot Encoded,Other Address Type,Preferred Address Type: Other Address Type

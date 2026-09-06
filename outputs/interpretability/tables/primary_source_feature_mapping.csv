@@ -1,0 +1,9 @@
+Source Feature,Business-Friendly Label,Representation,Transformed Columns,Category Levels
+feature_past_5yr_total_donation,Total Donation Amount (Past 5 Years),Numeric,1,Not applicable
+feature_past_5yr_average_donation,Average Donation Amount (Past 5 Years),Numeric,1,Not applicable
+feature_past_5yr_donation_frequency_rate,Donation Frequency Rate (Past 5 Years),Numeric,1,Not applicable
+feature_years_since_last_donation_past_5yr,Years Since Most Recent Donation,Numeric,1,Not applicable
+feature_past_5yr_max_donation,Maximum Annual Donation Amount (Past 5 Years),Numeric,1,Not applicable
+donor_age,Donor Age,Numeric,1,Not applicable
+feature_gender_identity,Gender Identity,One-Hot Encoded,3,"Female, Male, Unknown"
+feature_preferred_address_type,Preferred Address Type,One-Hot Encoded,5,"Business Address, Campus Address, Home Address, Missing, Other Address Type"
