@@ -1,0 +1,15 @@
+SHAP Rank,Transformed Position,Transformed Feature,Source Feature,Representation,Category Level,Business-Friendly Label,Mean Absolute SHAP,Importance Percentage,Cumulative Importance Percentage
+1,1,donor_age,donor_age,Numeric,Not applicable,Donor Age,0.0027173687376129295,21.880399806417657,21.880399806417657
+2,4,feature_past_5yr_max_donation,feature_past_5yr_max_donation,Numeric,Not applicable,Maximum Annual Donation Amount (Past 5 Years),0.0013096563159705737,10.54542337438123,32.425823180798886
+3,3,feature_past_5yr_average_donation,feature_past_5yr_average_donation,Numeric,Not applicable,Average Donation Amount (Past 5 Years),0.0012128628966266693,9.766037535220027,42.191860716018915
+4,6,feature_years_since_last_donation_past_5yr,feature_years_since_last_donation_past_5yr,Numeric,Not applicable,Years Since Most Recent Donation,0.001188599137670548,9.570664437922659,51.762525153941574
+5,8,feature_gender_identity_Male,feature_gender_identity,One-Hot Encoded,Male,Gender Identity: Male,0.0011692541000013904,9.414897150026647,61.17742230396822
+6,2,feature_past_5yr_total_donation,feature_past_5yr_total_donation,Numeric,Not applicable,Total Donation Amount (Past 5 Years),0.0010833453444711334,8.723155211637728,69.90057751560595
+7,7,feature_gender_identity_Female,feature_gender_identity,One-Hot Encoded,Female,Gender Identity: Female,0.0008037386538846626,6.471747040969079,76.37232455657502
+8,13,feature_preferred_address_type_Missing,feature_preferred_address_type,One-Hot Encoded,Missing,Preferred Address Type: Missing,0.0007893111166925089,6.355575732446706,82.72790028902173
+9,12,feature_preferred_address_type_Home,feature_preferred_address_type,One-Hot Encoded,Home Address,Preferred Address Type: Home Address,0.0007294621739366983,5.8736688136827535,88.60156910270449
+10,5,feature_past_5yr_donation_frequency_rate,feature_past_5yr_donation_frequency_rate,Numeric,Not applicable,Donation Frequency Rate (Past 5 Years),0.0005524068080014213,4.448009446622178,93.04957854932667
+11,9,feature_gender_identity_Unknown,feature_gender_identity,One-Hot Encoded,Unknown,Gender Identity: Unknown,0.0004403447573849569,3.545679763986182,96.59525831331285
+12,10,feature_preferred_address_type_Business,feature_preferred_address_type,One-Hot Encoded,Business Address,Preferred Address Type: Business Address,0.00023868065163547912,1.9218694951308728,98.51712780844373
+13,11,feature_preferred_address_type_Campus,feature_preferred_address_type,One-Hot Encoded,Campus Address,Preferred Address Type: Campus Address,0.00016688247520806334,1.343746701614234,99.86087451005797
+14,14,feature_preferred_address_type_Other,feature_preferred_address_type,One-Hot Encoded,Other Address Type,Preferred Address Type: Other Address Type,1.7278260923856207e-05,0.13912548994203836,100.0

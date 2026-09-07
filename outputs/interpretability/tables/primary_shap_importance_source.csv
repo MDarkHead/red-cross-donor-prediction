@@ -1,0 +1,9 @@
+SHAP Rank,Source Position,Source Feature,Business-Friendly Label,Transformed Columns,Mean Absolute SHAP,Importance Percentage,Cumulative Importance Percentage
+1,6,donor_age,Donor Age,1,0.0027173687376128184,23.065417848298598,23.065417848298598
+2,7,feature_gender_identity,Gender Identity,3,0.0021170864757268744,17.970135413613463,41.03555326191206
+3,8,feature_preferred_address_type,Preferred Address Type,5,0.001599812416708097,13.57943857950071,54.61499184141277
+4,5,feature_past_5yr_max_donation,Maximum Annual Donation Amount (Past 5 Years),1,0.0013096563159705544,11.116551738966955,65.73154358037972
+5,2,feature_past_5yr_average_donation,Average Donation Amount (Past 5 Years),1,0.0012128628966266044,10.29495523230548,76.0264988126852
+6,4,feature_years_since_last_donation_past_5yr,Years Since Most Recent Donation,1,0.0011885991376705339,10.089000946033746,86.11549975871895
+7,1,feature_past_5yr_total_donation,Total Donation Amount (Past 5 Years),1,0.001083345344471192,9.195591565607163,95.31109132432611
+8,3,feature_past_5yr_donation_frequency_rate,Donation Frequency Rate (Past 5 Years),1,0.0005524068080014244,4.688908675673876,99.99999999999999
