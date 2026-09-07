@@ -1,0 +1,7 @@
+SHAP Rank,Source Feature,Business-Friendly Label,ALE Bins,ALE Spearman Correlation,ALE Minimum,ALE Maximum,ALE Range,Lowest Effect Value,Highest Effect Value,Net ALE Change,General ALE Pattern
+1,donor_age,Donor Age,8,0.9047619047619048,-0.011755669376224038,0.08944673232731806,0.1012024017035421,21.0,84.0,0.1012024017035421,Generally Increasing
+4,feature_past_5yr_max_donation,Maximum Annual Donation Amount (Past 5 Years),6,0.3714285714285715,-0.012105556707651047,0.19936582189132554,0.21147137859897658,75.0,625100.0,0.21076608469671826,Nonlinear or Mixed
+5,feature_past_5yr_average_donation,Average Donation Amount (Past 5 Years),6,0.5428571428571429,-0.01499603386782345,0.25924342836140046,0.2742394622292239,2.6,146938.0,0.2728524424260563,Nonlinear or Mixed
+6,feature_years_since_last_donation_past_5yr,Years Since Most Recent Donation,5,0.6,-0.002601504892609954,0.002280129999087556,0.00488163489169751,0.5,2.5,0.002657840279681907,Generally Increasing
+7,feature_past_5yr_total_donation,Total Donation Amount (Past 5 Years),6,0.7714285714285715,-0.014712737443431408,0.26563765839079045,0.2803503958342219,13.0,734690.0,0.2799145636534009,Generally Increasing
+8,feature_past_5yr_donation_frequency_rate,Donation Frequency Rate (Past 5 Years),3,1.0,-0.0010042721425713242,0.008183815536707398,0.009188087679278721,0.1,0.7,0.009188087679278721,Generally Increasing
