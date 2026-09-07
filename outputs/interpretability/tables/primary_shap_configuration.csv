@@ -1,0 +1,2 @@
+Explainer,Feature Perturbation,Explained Output,Records,Transformed Features,Positive Class,Raw SHAP Shape,Raw SHAP Layout,Mean Base Value,Mean Model Output,Mean Reconstructed Output,Mean Absolute Error,Maximum Absolute Error,Additivity Tolerance,Status
+TreeExplainer,tree_path_dependent,Positive class probability,6881,14,1,"(6881, 14, 2)",Records by features by classes,0.05528195625317921,0.05514502734425434,0.05514502734425423,1.1411813217985255e-16,3.885780586188048e-15,1e-08,PASS
