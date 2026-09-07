@@ -1,0 +1,9 @@
+SHAP Rank,Source Feature,Business-Friendly Label,Category Level,Records,Record Percentage,Mean SHAP,Median SHAP,Positive Contribution Percentage,Mean Model Score,General Direction
+2,feature_gender_identity,Gender Identity,Male,3248,47.20244150559512,0.0007058874946992164,0.0016908089036914793,66.90270935960592,0.056420598095574676,Generally Increases Score
+2,feature_gender_identity,Gender Identity,Female,3345,48.612120331347185,-0.0010490199716785779,-0.0007438278288375953,16.831091180866967,0.0540978945605375,Generally Decreases Score
+2,feature_gender_identity,Gender Identity,Unknown,288,4.185438163057695,-0.0025411156418497175,-0.006403767474914486,24.65277777777778,0.0529214348485749,Generally Decreases Score
+3,feature_preferred_address_type,Preferred Address Type,Other Address Type,19,0.2761226565906118,0.004231155271720763,0.0036595744974013927,100.0,0.05777996079969917,Generally Increases Score
+3,feature_preferred_address_type,Preferred Address Type,Business Address,180,2.6158988519110595,0.0013599451435949924,0.001187252623100045,73.33333333333333,0.05409690914108531,Generally Increases Score
+3,feature_preferred_address_type,Preferred Address Type,Home Address,5769,83.83955820374945,0.00014617134019395263,0.00048168906685483074,69.59611717802045,0.05554346426533691,Generally Increases Score
+3,feature_preferred_address_type,Preferred Address Type,Missing,777,11.291963377416073,-0.0024914392597889133,-0.0027289067204492048,18.79021879021879,0.05258675632578749,Generally Decreases Score
+3,feature_preferred_address_type,Preferred Address Type,Campus Address,136,1.9764569103328005,-0.0026468454141475644,-0.00402882558920038,29.411764705882355,0.05387878855410963,Generally Decreases Score
