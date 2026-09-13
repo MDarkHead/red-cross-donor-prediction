@@ -1,0 +1,11 @@
+Correlation Rank,Feature Pair,First Feature,Second Feature,Spearman Correlation,Absolute Correlation,Correlation Strength
+1,Total Donation Amount (Past 5 Years) × Average Donation Amount (Past 5 Years),feature_past_5yr_total_donation,feature_past_5yr_average_donation,1.0,1.0,Strong
+2,Average Donation Amount (Past 5 Years) × Maximum Annual Donation Amount (Past 5 Years),feature_past_5yr_average_donation,feature_past_5yr_max_donation,0.9998133000114702,0.9998133000114702,Strong
+3,Total Donation Amount (Past 5 Years) × Maximum Annual Donation Amount (Past 5 Years),feature_past_5yr_total_donation,feature_past_5yr_max_donation,0.9998133000114702,0.9998133000114702,Strong
+4,Average Donation Amount (Past 5 Years) × Donation Frequency Rate (Past 5 Years),feature_past_5yr_average_donation,feature_past_5yr_donation_frequency_rate,0.987254044446351,0.987254044446351,Strong
+5,Total Donation Amount (Past 5 Years) × Donation Frequency Rate (Past 5 Years),feature_past_5yr_total_donation,feature_past_5yr_donation_frequency_rate,0.987254044446351,0.987254044446351,Strong
+6,Maximum Annual Donation Amount (Past 5 Years) × Donation Frequency Rate (Past 5 Years),feature_past_5yr_max_donation,feature_past_5yr_donation_frequency_rate,0.9857349133954459,0.9857349133954459,Strong
+7,Donation Frequency Rate (Past 5 Years) × Years Since Most Recent Donation,feature_past_5yr_donation_frequency_rate,feature_years_since_last_donation_past_5yr,-0.9834071271532792,0.9834071271532792,Strong
+8,Average Donation Amount (Past 5 Years) × Years Since Most Recent Donation,feature_past_5yr_average_donation,feature_years_since_last_donation_past_5yr,-0.9715824243598455,0.9715824243598455,Strong
+9,Total Donation Amount (Past 5 Years) × Years Since Most Recent Donation,feature_past_5yr_total_donation,feature_years_since_last_donation_past_5yr,-0.9715824243598455,0.9715824243598455,Strong
+10,Maximum Annual Donation Amount (Past 5 Years) × Years Since Most Recent Donation,feature_past_5yr_max_donation,feature_years_since_last_donation_past_5yr,-0.9710258285348501,0.9710258285348501,Strong
