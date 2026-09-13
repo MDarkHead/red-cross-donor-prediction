@@ -1,0 +1,8 @@
+Interpretation Area,Required Interpretation
+Model Output Status,Uncalibrated model output
+Primary Score Meaning,Relative donor prioritization score
+Correct Use,Rank donors from higher to lower model scores for outreach planning
+Incorrect Use,Do not interpret a score such as 0.1000 as a literal 10% probability of donating
+Rank Definition,Rank 1 is the highest score; tied scores are ordered by final test row position
+Evaluation Scope,Descriptive held out final test analysis only
+Operational Safeguard,"Use score ordering, observed capture, and lift rather than probability claims"
