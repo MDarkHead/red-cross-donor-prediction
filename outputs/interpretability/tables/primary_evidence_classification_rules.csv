@@ -1,0 +1,5 @@
+Evidence Classification,Meaning,Required Interpretation
+Stable,Consistent support across repeated samples and held out evaluation,May be used as a primary model finding
+Moderately Supported,"Meaningful support with some method, sample, or context limitations",Use with supporting evidence and limitations
+Method Dependent,Importance changes materially across interpretation methods,Compare methods and related predictors before drawing conclusions
+Unstable,"Weak, variable, or exploratory evidence",Do not use as a primary conclusion
