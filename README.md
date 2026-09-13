@@ -10,8 +10,7 @@ This project develops an end-to-end machine learning pipeline to predict donor l
 - Phase 4 — Feature Engineering ✅
 - Phase 5 — Classification Modeling ✅
 - Phase 6 — Model Interpretability & Insights
-- Phase 7 — Tableau Dashboard
-- Phase 8 — Portfolio Packaging & Final Deliverables
+- Phase 7 — Portfolio Packaging & Final Deliverables
 
 ## Tools & Technologies
 ### Languages
@@ -77,7 +76,6 @@ red-cross-donor-prediction/
 │       ├── 04_feature_engineering.md
 │       └── 05_classification_modeling.md
 │
-├── tableau/
 └── visuals/
 ```
 
