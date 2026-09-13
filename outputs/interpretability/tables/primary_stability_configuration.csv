@@ -1,0 +1,2 @@
+Development Folds,SHAP Records Per Fold,Final Test Bootstrap Iterations,Worker Processes,Top Feature Cutoff,Mean Built In Fold Correlation,Minimum Built In Fold Correlation,Mean SHAP Fold Correlation,Minimum SHAP Fold Correlation,Mean Bootstrap SHAP Correlation,Minimum Bootstrap SHAP Correlation,Mean Bootstrap Top Feature Overlap,Model Status
+5,2000,500,2,4,0.9761904761904763,0.9523809523809524,0.9190476190476191,0.8095238095238096,0.9880952380952382,0.9285714285714287,99.7,Frozen Final Model with Diagnostic Fold Copies

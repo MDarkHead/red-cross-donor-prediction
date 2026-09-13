@@ -1,0 +1,41 @@
+Fold,Source Feature,Business-Friendly Label,Training Records,Validation Records,SHAP Records,SHAP Positive Targets,Built In Importance,Built In Rank,Mean Absolute SHAP,SHAP Rank
+1,feature_past_5yr_total_donation,Total Donation Amount (Past 5 Years),22017,5505,2000,111,0.19020093618018222,2,0.0012392547268451075,6
+1,feature_past_5yr_average_donation,Average Donation Amount (Past 5 Years),22017,5505,2000,111,0.18715641794474924,3,0.0010973832152878563,7
+1,feature_past_5yr_donation_frequency_rate,Donation Frequency Rate (Past 5 Years),22017,5505,2000,111,0.03084333901349723,7,0.0006184995568777557,8
+1,feature_years_since_last_donation_past_5yr,Years Since Most Recent Donation,22017,5505,2000,111,0.05427608610694274,5,0.0015969449747200192,3
+1,feature_past_5yr_max_donation,Maximum Annual Donation Amount (Past 5 Years),22017,5505,2000,111,0.17235911740873344,4,0.0014465071557587007,5
+1,donor_age,Donor Age,22017,5505,2000,111,0.2978487302190146,1,0.003108456536732592,1
+1,feature_gender_identity,Gender Identity,22017,5505,2000,111,0.03672805800660931,6,0.0023240413795580315,2
+1,feature_preferred_address_type,Preferred Address Type,22017,5505,2000,111,0.030587315120271328,8,0.0015081755962296135,4
+2,feature_past_5yr_total_donation,Total Donation Amount (Past 5 Years),22017,5505,2000,111,0.20456653316087578,2,0.0013125613120908279,6
+2,feature_past_5yr_average_donation,Average Donation Amount (Past 5 Years),22017,5505,2000,111,0.20372373098772212,3,0.0013432496553211098,5
+2,feature_past_5yr_donation_frequency_rate,Donation Frequency Rate (Past 5 Years),22017,5505,2000,111,0.029078238008493826,8,0.0006735947904618168,8
+2,feature_years_since_last_donation_past_5yr,Years Since Most Recent Donation,22017,5505,2000,111,0.05070790082224601,5,0.0012339448124456618,7
+2,feature_past_5yr_max_donation,Maximum Annual Donation Amount (Past 5 Years),22017,5505,2000,111,0.19152779027195235,4,0.0015347865783118574,4
+2,donor_age,Donor Age,22017,5505,2000,111,0.24684998069349331,1,0.0034779193321111137,1
+2,feature_gender_identity,Gender Identity,22017,5505,2000,111,0.04294184798318927,6,0.0023394877654807173,2
+2,feature_preferred_address_type,Preferred Address Type,22017,5505,2000,111,0.030603978072027492,7,0.002037956181269377,3
+3,feature_past_5yr_total_donation,Total Donation Amount (Past 5 Years),22018,5504,2000,110,0.19691307136561326,3,0.0013041867497825656,5
+3,feature_past_5yr_average_donation,Average Donation Amount (Past 5 Years),22018,5504,2000,110,0.1978360708529022,2,0.0012018393328841477,6
+3,feature_past_5yr_donation_frequency_rate,Donation Frequency Rate (Past 5 Years),22018,5504,2000,110,0.03394685301238592,8,0.000783216653641283,8
+3,feature_years_since_last_donation_past_5yr,Years Since Most Recent Donation,22018,5504,2000,110,0.05129735147153048,5,0.0011428290627107777,7
+3,feature_past_5yr_max_donation,Maximum Annual Donation Amount (Past 5 Years),22018,5504,2000,110,0.1745982844814296,4,0.0013126022872831191,4
+3,donor_age,Donor Age,22018,5504,2000,110,0.26565318947263983,1,0.003383882769144687,1
+3,feature_gender_identity,Gender Identity,22018,5504,2000,110,0.045265865948387884,6,0.002400524472923216,2
+3,feature_preferred_address_type,Preferred Address Type,22018,5504,2000,110,0.03448931339511082,7,0.00158824036307241,3
+4,feature_past_5yr_total_donation,Total Donation Amount (Past 5 Years),22018,5504,2000,110,0.17322112303549567,3,0.0010400387930628377,6
+4,feature_past_5yr_average_donation,Average Donation Amount (Past 5 Years),22018,5504,2000,110,0.18286189083442547,2,0.0011138042072835373,5
+4,feature_past_5yr_donation_frequency_rate,Donation Frequency Rate (Past 5 Years),22018,5504,2000,110,0.03026387806701764,8,0.0005491171711085815,8
+4,feature_years_since_last_donation_past_5yr,Years Since Most Recent Donation,22018,5504,2000,110,0.05986632889276086,5,0.0009932706336096037,7
+4,feature_past_5yr_max_donation,Maximum Annual Donation Amount (Past 5 Years),22018,5504,2000,110,0.16137769684107403,4,0.0014157896240693843,4
+4,donor_age,Donor Age,22018,5504,2000,110,0.3043507077944616,1,0.0024749791868224585,2
+4,feature_gender_identity,Gender Identity,22018,5504,2000,110,0.044577277748108324,6,0.002689530851604492,1
+4,feature_preferred_address_type,Preferred Address Type,22018,5504,2000,110,0.043481096786656466,7,0.0018851031364148269,3
+5,feature_past_5yr_total_donation,Total Donation Amount (Past 5 Years),22018,5504,2000,111,0.21588229733518674,3,0.0009357600250906292,7
+5,feature_past_5yr_average_donation,Average Donation Amount (Past 5 Years),22018,5504,2000,111,0.21939760347128068,2,0.0012112450259052982,4
+5,feature_past_5yr_donation_frequency_rate,Donation Frequency Rate (Past 5 Years),22018,5504,2000,111,0.033871628192910605,7,0.0006295241421815956,8
+5,feature_years_since_last_donation_past_5yr,Years Since Most Recent Donation,22018,5504,2000,111,0.045936717069513994,5,0.0012051382483155501,5
+5,feature_past_5yr_max_donation,Maximum Annual Donation Amount (Past 5 Years),22018,5504,2000,111,0.1795545396758236,4,0.0011471630746641283,6
+5,donor_age,Donor Age,22018,5504,2000,111,0.2360413888894748,1,0.002956542812090333,1
+5,feature_gender_identity,Gender Identity,22018,5504,2000,111,0.03595339175182752,6,0.0026098055108048236,2
+5,feature_preferred_address_type,Preferred Address Type,22018,5504,2000,111,0.033362433613982015,8,0.0018912290522239297,3
