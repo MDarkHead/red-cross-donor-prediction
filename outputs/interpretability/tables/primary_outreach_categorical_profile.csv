@@ -1,0 +1,33 @@
+Outreach Capacity,Source Feature,Business-Friendly Label,Category Level,Records Selected,Category Records,Selected Group Percentage,Full Test Records,Full Test Percentage,Percentage Point Difference,Representation Ratio,Category Positive Targets,Observed Donor Rate Percentage,Rate Reporting Status
+Top 1%,feature_gender_identity,Gender Identity,Female,69,22,31.88405797101449,3345,48.612120331347185,-16.728062360332697,0.6558870041810185,4,18.181818181818183,Reported
+Top 1%,feature_gender_identity,Gender Identity,Male,69,40,57.971014492753625,3248,47.20244150559512,10.768572987158507,1.228135932033983,5,12.5,Reported
+Top 1%,feature_gender_identity,Gender Identity,Unknown,69,7,10.144927536231885,288,4.185438163057695,5.95948937317419,2.4238627214170694,4,,Suppressed: fewer than 20 records
+Top 1%,feature_preferred_address_type,Preferred Address Type,Home Address,69,51,73.91304347826086,5769,83.83955820374945,-9.926514725488587,0.881601061143895,10,19.607843137254903,Reported
+Top 1%,feature_preferred_address_type,Preferred Address Type,Missing,69,13,18.84057971014493,777,11.291963377416073,7.548616332728857,1.66849458153806,3,,Suppressed: fewer than 20 records
+Top 1%,feature_preferred_address_type,Preferred Address Type,Business Address,69,2,2.898550724637681,180,2.6158988519110595,0.2826518727266216,1.1080515297906601,0,,Suppressed: fewer than 20 records
+Top 1%,feature_preferred_address_type,Preferred Address Type,Campus Address,69,3,4.3478260869565215,136,1.9764569103328005,2.371369176623721,2.1998081841432224,0,,Suppressed: fewer than 20 records
+Top 1%,feature_preferred_address_type,Preferred Address Type,Other Address Type,69,0,0.0,19,0.2761226565906118,-0.2761226565906118,0.0,0,,Suppressed: fewer than 20 records
+Top 5%,feature_gender_identity,Gender Identity,Female,345,159,46.08695652173913,3345,48.612120331347185,-2.5251638096080526,0.9480548514980179,11,6.918238993710692,Reported
+Top 5%,feature_gender_identity,Gender Identity,Male,345,161,46.666666666666664,3248,47.20244150559512,-0.5357748389284538,0.9886494252873562,8,4.968944099378882,Reported
+Top 5%,feature_gender_identity,Gender Identity,Unknown,345,25,7.246376811594203,288,4.185438163057695,3.060938648536508,1.7313305152979068,4,16.0,Reported
+Top 5%,feature_preferred_address_type,Preferred Address Type,Home Address,345,236,68.40579710144927,5769,83.83955820374945,-15.433761102300181,0.8159131389410166,19,8.050847457627118,Reported
+Top 5%,feature_preferred_address_type,Preferred Address Type,Missing,345,71,20.579710144927535,777,11.291963377416073,9.287746767511463,1.8225094659877268,4,5.633802816901409,Reported
+Top 5%,feature_preferred_address_type,Preferred Address Type,Business Address,345,16,4.63768115942029,180,2.6158988519110595,2.0217823075092305,1.7728824476650564,0,,Suppressed: fewer than 20 records
+Top 5%,feature_preferred_address_type,Preferred Address Type,Campus Address,345,20,5.797101449275362,136,1.9764569103328005,3.820644538942562,2.93307757885763,0,0.0,Reported
+Top 5%,feature_preferred_address_type,Preferred Address Type,Other Address Type,345,2,0.5797101449275363,19,0.2761226565906118,0.30358748833692445,2.0994660564454617,0,,Suppressed: fewer than 20 records
+Top 10%,feature_gender_identity,Gender Identity,Female,689,315,45.71843251088534,3345,48.612120331347185,-2.8936878204618424,0.9404739435198866,15,4.761904761904762,Reported
+Top 10%,feature_gender_identity,Gender Identity,Male,689,323,46.879535558780844,3248,47.20244150559512,-0.32290594681427365,0.9931591261698614,25,7.739938080495357,Reported
+Top 10%,feature_gender_identity,Gender Identity,Unknown,689,51,7.402031930333817,288,4.185438163057695,3.2165937672761222,1.7685201983551042,6,11.76470588235294,Reported
+Top 10%,feature_preferred_address_type,Preferred Address Type,Home Address,689,514,74.60087082728593,5769,83.83955820374945,-9.238687376463517,0.889805151954506,40,7.782101167315175,Reported
+Top 10%,feature_preferred_address_type,Preferred Address Type,Missing,689,129,18.722786647314948,777,11.291963377416073,7.430823269898875,1.6580629976856391,6,4.651162790697675,Reported
+Top 10%,feature_preferred_address_type,Preferred Address Type,Business Address,689,20,2.9027576197387517,180,2.6158988519110595,0.28685876782769215,1.1096597323012416,0,0.0,Reported
+Top 10%,feature_preferred_address_type,Preferred Address Type,Campus Address,689,24,3.483309143686502,136,1.9764569103328005,1.5068522333537016,1.7624007513019722,0,0.0,Reported
+Top 10%,feature_preferred_address_type,Preferred Address Type,Other Address Type,689,2,0.29027576197387517,19,0.2761226565906118,0.014153105383263365,1.0512565884959133,0,,Suppressed: fewer than 20 records
+Top 20%,feature_gender_identity,Gender Identity,Female,1377,510,37.03703703703704,3345,48.612120331347185,-11.575083294310147,0.7618889442506782,26,5.098039215686274,Reported
+Top 20%,feature_gender_identity,Gender Identity,Male,1377,808,58.678286129266525,3248,47.20244150559512,11.475844623671406,1.24311972554028,52,6.435643564356436,Reported
+Top 20%,feature_gender_identity,Gender Identity,Unknown,1377,59,4.284676833696442,288,4.185438163057695,0.09923867063874692,1.0237104615508756,6,10.16949152542373,Reported
+Top 20%,feature_preferred_address_type,Preferred Address Type,Home Address,1377,1165,84.60421205519245,5769,83.83955820374945,0.7646538514430006,1.0091204422807754,77,6.609442060085836,Reported
+Top 20%,feature_preferred_address_type,Preferred Address Type,Missing,1377,140,10.167029774872912,777,11.291963377416073,-1.1249336025431607,0.9003775016846912,6,4.285714285714286,Reported
+Top 20%,feature_preferred_address_type,Preferred Address Type,Business Address,1377,27,1.9607843137254901,180,2.6158988519110595,-0.6551145381855694,0.7495642701525054,0,0.0,Reported
+Top 20%,feature_preferred_address_type,Preferred Address Type,Campus Address,1377,34,2.4691358024691357,136,1.9764569103328005,0.4926788921363352,1.249273783587509,0,0.0,Reported
+Top 20%,feature_preferred_address_type,Preferred Address Type,Other Address Type,1377,11,0.7988380537400145,19,0.2761226565906118,0.5227153971494027,2.8930550777816,1,,Suppressed: fewer than 20 records
