@@ -1,0 +1,41 @@
+Explanation ID,Selection Type,Outcome Group,Source Feature,Business-Friendly Label,Feature Value,SHAP Contribution,Absolute SHAP Contribution,Contribution Direction,Local Contribution Rank
+L001,High Ranked Actual Donor 1,True Positive,feature_past_5yr_total_donation,Total Donation Amount (Past 5 Years),"264,747.0000",0.2531176611665119,0.2531176611665119,Increases Score,1
+L001,High Ranked Actual Donor 1,True Positive,feature_past_5yr_average_donation,Average Donation Amount (Past 5 Years),"52,949.4000",0.24864026971256817,0.24864026971256817,Increases Score,2
+L001,High Ranked Actual Donor 1,True Positive,feature_past_5yr_donation_frequency_rate,Donation Frequency Rate (Past 5 Years),1.0000,0.02287717465845041,0.02287717465845041,Increases Score,4
+L001,High Ranked Actual Donor 1,True Positive,feature_years_since_last_donation_past_5yr,Years Since Most Recent Donation,0,0.021722600422821207,0.021722600422821207,Increases Score,5
+L001,High Ranked Actual Donor 1,True Positive,feature_past_5yr_max_donation,Maximum Annual Donation Amount (Past 5 Years),"90,000.0000",0.19988109156976683,0.19988109156976683,Increases Score,3
+L001,High Ranked Actual Donor 1,True Positive,donor_age,Donor Age,42,-3.1861532965400814e-07,3.1861532965400814e-07,Decreases Score,8
+L001,High Ranked Actual Donor 1,True Positive,feature_gender_identity,Gender Identity,Male,0.0017175094748357604,0.0017175094748357604,Increases Score,7
+L001,High Ranked Actual Donor 1,True Positive,feature_preferred_address_type,Preferred Address Type,Home,0.003258269105424964,0.003258269105424964,Increases Score,6
+L002,High Ranked Actual Donor 2,True Positive,feature_past_5yr_total_donation,Total Donation Amount (Past 5 Years),"106,000.0000",0.24282590878635676,0.24282590878635676,Increases Score,1
+L002,High Ranked Actual Donor 2,True Positive,feature_past_5yr_average_donation,Average Donation Amount (Past 5 Years),"21,200.0000",0.2266884484765664,0.2266884484765664,Increases Score,2
+L002,High Ranked Actual Donor 2,True Positive,feature_past_5yr_donation_frequency_rate,Donation Frequency Rate (Past 5 Years),0.2000,0.002717884972519187,0.002717884972519187,Increases Score,4
+L002,High Ranked Actual Donor 2,True Positive,feature_years_since_last_donation_past_5yr,Years Since Most Recent Donation,3,-0.0014735015011410225,0.0014735015011410225,Decreases Score,7
+L002,High Ranked Actual Donor 2,True Positive,feature_past_5yr_max_donation,Maximum Annual Donation Amount (Past 5 Years),"106,000.0000",0.19424407846494857,0.19424407846494857,Increases Score,3
+L002,High Ranked Actual Donor 2,True Positive,donor_age,Donor Age,66,0.0021101694557422637,0.0021101694557422637,Increases Score,6
+L002,High Ranked Actual Donor 2,True Positive,feature_gender_identity,Gender Identity,Male,0.0009268197960987612,0.0009268197960987612,Increases Score,8
+L002,High Ranked Actual Donor 2,True Positive,feature_preferred_address_type,Preferred Address Type,Home,0.0021615913939976215,0.0021615913939976215,Increases Score,5
+L003,Representative True Positive,True Positive,feature_past_5yr_total_donation,Total Donation Amount (Past 5 Years),1.0000,0.0013059520817486363,0.0013059520817486363,Increases Score,6
+L003,Representative True Positive,True Positive,feature_past_5yr_average_donation,Average Donation Amount (Past 5 Years),0.2000,0.0014280634706267078,0.0014280634706267078,Increases Score,5
+L003,Representative True Positive,True Positive,feature_past_5yr_donation_frequency_rate,Donation Frequency Rate (Past 5 Years),0.2000,0.0009791340119510912,0.0009791340119510912,Increases Score,7
+L003,Representative True Positive,True Positive,feature_years_since_last_donation_past_5yr,Years Since Most Recent Donation,0,0.010202152563849053,0.010202152563849053,Increases Score,1
+L003,Representative True Positive,True Positive,feature_past_5yr_max_donation,Maximum Annual Donation Amount (Past 5 Years),1.0000,0.0024058641918208515,0.0024058641918208515,Increases Score,4
+L003,Representative True Positive,True Positive,donor_age,Donor Age,42,0.003042747347254453,0.003042747347254453,Increases Score,2
+L003,Representative True Positive,True Positive,feature_gender_identity,Gender Identity,Female,0.0024220986575340443,0.0024220986575340443,Increases Score,3
+L003,Representative True Positive,True Positive,feature_preferred_address_type,Preferred Address Type,Home,0.00012778847238020187,0.00012778847238020187,Increases Score,8
+L004,Representative False Positive,False Positive,feature_past_5yr_total_donation,Total Donation Amount (Past 5 Years),40.0000,0.0017768200413423748,0.0017768200413423748,Increases Score,5
+L004,Representative False Positive,False Positive,feature_past_5yr_average_donation,Average Donation Amount (Past 5 Years),8.0000,0.0017165402073214984,0.0017165402073214984,Increases Score,7
+L004,Representative False Positive,False Positive,feature_past_5yr_donation_frequency_rate,Donation Frequency Rate (Past 5 Years),0.2000,0.00019171812680332336,0.00019171812680332336,Increases Score,8
+L004,Representative False Positive,False Positive,feature_years_since_last_donation_past_5yr,Years Since Most Recent Donation,0,0.014168003923222977,0.014168003923222977,Increases Score,1
+L004,Representative False Positive,False Positive,feature_past_5yr_max_donation,Maximum Annual Donation Amount (Past 5 Years),40.0000,0.004343148425066596,0.004343148425066596,Increases Score,4
+L004,Representative False Positive,False Positive,donor_age,Donor Age,47,-0.005152781199945672,0.005152781199945672,Decreases Score,2
+L004,Representative False Positive,False Positive,feature_gender_identity,Gender Identity,Male,0.004995198200046578,0.004995198200046578,Increases Score,3
+L004,Representative False Positive,False Positive,feature_preferred_address_type,Preferred Address Type,Home,0.0017315994112812015,0.0017315994112812015,Increases Score,6
+L005,Representative False Negative,False Negative,feature_past_5yr_total_donation,Total Donation Amount (Past 5 Years),0.0000,-5.2075380906500135e-06,5.2075380906500135e-06,Decreases Score,8
+L005,Representative False Negative,False Negative,feature_past_5yr_average_donation,Average Donation Amount (Past 5 Years),0.0000,2.5701045470963356e-05,2.5701045470963356e-05,Increases Score,7
+L005,Representative False Negative,False Negative,feature_past_5yr_donation_frequency_rate,Donation Frequency Rate (Past 5 Years),0.0000,-0.00011986897769399924,0.00011986897769399924,Decreases Score,6
+L005,Representative False Negative,False Negative,feature_years_since_last_donation_past_5yr,Years Since Most Recent Donation,6,-0.00036234569264851464,0.00036234569264851464,Decreases Score,4
+L005,Representative False Negative,False Negative,feature_past_5yr_max_donation,Maximum Annual Donation Amount (Past 5 Years),0.0000,0.00028364705165344036,0.00028364705165344036,Increases Score,5
+L005,Representative False Negative,False Negative,donor_age,Donor Age,42,-0.0006085868494897569,0.0006085868494897569,Decreases Score,2
+L005,Representative False Negative,False Negative,feature_gender_identity,Gender Identity,Female,-0.0007438278288375953,0.0007438278288375953,Decreases Score,1
+L005,Representative False Negative,False Negative,feature_preferred_address_type,Preferred Address Type,Home,0.00048168906685483074,0.00048168906685483074,Increases Score,3
