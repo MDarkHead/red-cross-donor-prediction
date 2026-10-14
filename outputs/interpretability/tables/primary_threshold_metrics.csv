@@ -1,0 +1,2 @@
+Fixed Threshold,Records,Predicted Positive Records,Predicted Negative Records,Accuracy,Precision,Recall,Specificity,F1 Score,Balanced Accuracy,False Positive Rate,False Negative Rate,Negative Predictive Value
+0.065423686721555,6881,564,6317,0.8737102165382938,0.0673758865248227,0.09973753280839895,0.9190769230769231,0.08042328042328042,0.509407227942661,0.08092307692307692,0.9002624671916011,0.9457020737691942
