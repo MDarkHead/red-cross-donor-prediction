@@ -1,0 +1,15 @@
+Audit Dimension,Group,Model Role,Records,Record Percentage,Positive Targets,Negative Targets,Threshold Selections,Top 10 Percent Selections,Minimum Required Denominator,Support Classification,Interpretation Limitation
+Gender Identity,Female,Model Predictor,3345,0.48612120331347186,178,3167,252,315,20,Adequate for Reported Rates,Reported rates remain descriptive
+Gender Identity,Male,Model Predictor,3248,0.47202441505595116,182,3066,277,323,20,Adequate for Reported Rates,Reported rates remain descriptive
+Gender Identity,Unknown,Model Predictor,288,0.04185438163057695,21,267,35,51,20,Adequate for Reported Rates,Reported rates remain descriptive
+Preferred Address Type,Home Address,Model Predictor,5769,0.8383955820374945,330,5439,412,514,20,Adequate for Reported Rates,Reported rates remain descriptive
+Preferred Address Type,Missing,Model Predictor,777,0.11291963377416073,38,739,109,129,20,Adequate for Reported Rates,Reported rates remain descriptive
+Preferred Address Type,Business Address,Model Predictor,180,0.026158988519110596,9,171,18,20,20,Limited Outcome Support,Some performance metrics are suppressed
+Preferred Address Type,Campus Address,Model Predictor,136,0.019764569103328005,3,133,23,24,20,Limited Outcome Support,Some performance metrics are suppressed
+Preferred Address Type,Other Address Type,Model Predictor,19,0.0027612265659061183,1,18,2,2,20,Insufficient Total Support,Group rates should not be interpreted
+Donor Age Group,Under 30,Derived from Model Predictor,548,0.07963958726929225,17,531,90,94,20,Limited Outcome Support,Some performance metrics are suppressed
+Donor Age Group,30 to 39,Derived from Model Predictor,624,0.09068449353291673,44,580,24,31,20,Adequate for Reported Rates,Reported rates remain descriptive
+Donor Age Group,40 to 49,Derived from Model Predictor,4681,0.6802790292108705,259,4422,226,292,20,Adequate for Reported Rates,Reported rates remain descriptive
+Donor Age Group,50 to 59,Derived from Model Predictor,401,0.058276413312018605,31,370,34,38,20,Adequate for Reported Rates,Reported rates remain descriptive
+Donor Age Group,60 to 69,Derived from Model Predictor,286,0.04156372620258683,13,273,62,90,20,Limited Outcome Support,Some performance metrics are suppressed
+Donor Age Group,70 and Older,Derived from Model Predictor,341,0.04955675047231507,17,324,128,144,20,Limited Outcome Support,Some performance metrics are suppressed

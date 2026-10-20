@@ -1,0 +1,29 @@
+Finding Type,Audit Dimension,Finding,Evidence Value,Review Priority,Cautious Interpretation
+Direct Predictor,Gender Identity,Gender Identity is directly used by the model,1.0,Review Direct Use,Direct use should be reviewed for business necessity and governance
+Direct Predictor,Preferred Address Type,Preferred Address Type is directly used by the model,1.0,Review Direct Use,Direct use should be reviewed for business necessity and governance
+Direct Predictor,Donor Age Group,Donor Age is directly used by the model,0.9479377986883649,Review Direct Use,Direct use should be reviewed for business necessity and governance
+Possible Proxy Association,Preferred Address Type,Donor Age is associated with Preferred Address Type,0.16880141831109527,Moderate Review Priority,Association alone does not confirm that the feature functions as a proxy
+Possible Proxy Association,Donor Age Group,Preferred Address Type is associated with Donor Age Group,0.15508391131232224,Moderate Review Priority,Association alone does not confirm that the feature functions as a proxy
+Limited Sample Support,Preferred Address Type,Business Address: Limited Outcome Support,,Interpret Cautiously,Some performance metrics are suppressed
+Limited Sample Support,Preferred Address Type,Campus Address: Limited Outcome Support,,Interpret Cautiously,Some performance metrics are suppressed
+Limited Sample Support,Preferred Address Type,Other Address Type: Insufficient Total Support,,Interpret Cautiously,Group rates should not be interpreted
+Limited Sample Support,Donor Age Group,Under 30: Limited Outcome Support,,Interpret Cautiously,Some performance metrics are suppressed
+Limited Sample Support,Donor Age Group,60 to 69: Limited Outcome Support,,Interpret Cautiously,Some performance metrics are suppressed
+Limited Sample Support,Donor Age Group,70 and Older: Limited Outcome Support,,Interpret Cautiously,Some performance metrics are suppressed
+Observed Group Difference,Gender Identity,Threshold Selection Rate: Female to Unknown,0.046191454907822616,Moderate Review Priority,All groups were included
+Observed Group Difference,Gender Identity,Top 10 Percent Selection Rate: Female to Unknown,0.0829129297458894,Moderate Review Priority,All groups were included
+Observed Group Difference,Gender Identity,Recall: Female to Unknown,0.15944355270197966,Higher Review Priority,All groups were included
+Observed Group Difference,Gender Identity,Positive Predictive Value: Female to Unknown,0.0873015873015873,Higher Review Priority,All groups were included
+Observed Group Difference,Gender Identity,PR AUC: Female to Unknown,0.149413616856191,Higher Review Priority,All groups were included
+Observed Group Difference,Gender Identity,Top 10 Percent Donor Rate: Female to Unknown,0.0700280112044818,Higher Review Priority,All groups were included
+Observed Group Difference,Preferred Address Type,Threshold Selection Rate: Home Address to Campus Address,0.09770145707789096,Higher Review Priority,1 group(s) were not included in this comparison
+Observed Group Difference,Preferred Address Type,Top 10 Percent Selection Rate: Home Address to Campus Address,0.08737369102607243,Moderate Review Priority,1 group(s) were not included in this comparison
+Observed Group Difference,Preferred Address Type,False Positive Rate: Home Address to Campus Address,0.10325040400228369,Higher Review Priority,1 group(s) were not included in this comparison
+Observed Group Difference,Preferred Address Type,Positive Predictive Value: Campus Address to Home Address,0.0800970873786408,Moderate Review Priority,2 group(s) were not included in this comparison
+Observed Group Difference,Preferred Address Type,Top 10 Percent Donor Rate: Business Address to Home Address,0.07782101167315175,Moderate Review Priority,1 group(s) were not included in this comparison
+Observed Group Difference,Donor Age Group,Threshold Selection Rate: 30 to 39 to 70 and Older,0.3369050304534176,Higher Review Priority,All groups were included
+Observed Group Difference,Donor Age Group,Top 10 Percent Selection Rate: 30 to 39 to 70 and Older,0.37260790284983836,Higher Review Priority,All groups were included
+Observed Group Difference,Donor Age Group,False Positive Rate: 30 to 39 to 70 and Older,0.33724989357173263,Higher Review Priority,All groups were included
+Observed Group Difference,Donor Age Group,Positive Predictive Value: Under 30 to 30 to 39,0.11388888888888889,Higher Review Priority,All groups were included
+Observed Group Difference,Donor Age Group,PR AUC: 40 to 49 to 50 to 59,0.08470024721196313,Higher Review Priority,3 group(s) were not included in this comparison
+Observed Group Difference,Donor Age Group,Top 10 Percent Donor Rate: Under 30 to 30 to 39,0.1183939601921757,Higher Review Priority,All groups were included
