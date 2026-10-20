@@ -1,0 +1,8 @@
+Guardrail Area,Required Practice,Prohibited Interpretation
+Score Meaning,Treat model output as a relative donor prioritization score.,Do not interpret a score such as 0.1000 as a literal 10% probability of donating
+Score Use,Rank donors from higher to lower model scores for outreach planning,Do not convert the score into a donation probability claim.
+Correlated Donation Features,Interpret historical donation measures collectively and preserve their shared-information limitation.,Do not claim that one correlated donation measure independently drives the model result.
+Demographic Variables,Use demographic variables for fairness evaluation and disparity monitoring.,Do not use gender or age patterns as standalone outreach rules.
+Address Variables,Use address information to review data quality and contact readiness.,Do not treat address type as a direct measure of donor intent.
+Interaction Candidates,Retain interaction findings as exploratory evidence for future review.,Do not convert interaction candidates into outreach rules.
+Excluded Findings,Exclude method-dependent and unstable findings from primary outreach claims.,Do not present excluded findings as confirmed donor relationships.
