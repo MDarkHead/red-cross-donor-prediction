@@ -1,0 +1,11 @@
+Interpretation Area,Required Interpretation
+Benchmark Target,Historical donor status
+Primary Model Target,Current fiscal year donor status
+Target Relationship,The benchmark and primary model predict different outcomes and must be interpreted separately
+Benchmark Positive Target Rate,"62.11%; Derived from accuracy, precision, and recall"
+Benchmark Predictor Construction,"Is Alumnus, Age Squared, Age Decade, Preferred Address Missing, Is Parent, Unknown Gender Flag, Age Group, Donor Age, Gender Identity, Gender Missing Flag, Other Address Type Flag, Business Address Flag, Campus Address Flag, Home Address Flag, Postal Code Missing Flag, Preferred Address Type"
+Historical Donation Measures,Excluded from the benchmark predictors because they define or closely encode historical donor status
+Leakage Safeguard,"Historical donation amount, frequency, and recency measures were not used to predict the historical donor-status target"
+Model Role,"Diagnostic historical-status benchmark, not the primary donor-prioritization model"
+Test Evidence,Weak Test Discrimination
+Operational Use,Do not use the benchmark as a substitute for the primary current-year outreach model

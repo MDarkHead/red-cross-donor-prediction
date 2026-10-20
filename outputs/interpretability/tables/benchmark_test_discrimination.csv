@@ -1,0 +1,8 @@
+Metric,Metric Value,No Skill Reference,Difference from Reference,Interpretation
+Accuracy,0.6205493387589013,0.6211306496148818,-0.0005813108559805658,Does Not Improve on the Majority Class Baseline
+Balanced Accuracy,0.4999808836904493,0.5,-1.911630955070409e-05,Weak Class Separation
+Precision,0.6211216314639476,,,Describes Reliability of Positive Classifications
+Recall,0.9976602714085168,,,Describes Positive Target Coverage
+F1 Score,0.7655983481461531,,,Summarizes Precision and Recall
+ROC AUC,0.5247115995073915,0.5,0.024711599507391546,Weak Test Discrimination
+PR AUC,0.6370312687028776,0.6211306496148818,0.015900619087995782,Near the No Skill Positive Rate

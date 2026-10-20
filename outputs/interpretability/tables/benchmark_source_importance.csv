@@ -1,0 +1,17 @@
+Importance Rank,Source Feature,Business-Friendly Label,Transformed Features,Feature Importance,Importance Percentage
+1,is_alumnus_flag,Is Alumnus,1,0.2877804477251598,28.778044772515983
+2,feature_age_squared,Age Squared,1,0.17685964783317087,17.685964783317086
+3,feature_age_decade,Age Decade,11,0.16824371979095792,16.824371979095794
+4,feature_preferred_address_missing_flag,Preferred Address Missing,1,0.0886524458351712,8.865244583517121
+5,is_parent_flag,Is Parent,1,0.07793044504705703,7.793044504705702
+6,feature_gender_unknown_flag,Unknown Gender Flag,1,0.058835129179776686,5.883512917977669
+7,feature_age_group,Age Group,8,0.0565578797647783,5.65578797647783
+8,donor_age,Donor Age,1,0.050234694529746,5.0234694529746005
+9,feature_gender_identity,Gender Identity,3,0.034254152744101464,3.4254152744101463
+10,feature_gender_missing_flag,Gender Missing Flag,1,0.000651437550080711,0.0651437550080711
+11,feature_address_type_other,Other Address Type Flag,1,0.0,0.0
+12,feature_is_business_address,Business Address Flag,1,0.0,0.0
+13,feature_is_campus_address,Campus Address Flag,1,0.0,0.0
+14,feature_is_home_address,Home Address Flag,1,0.0,0.0
+15,feature_postal_code_missing_flag,Postal Code Missing Flag,1,0.0,0.0
+16,feature_preferred_address_type,Preferred Address Type,5,0.0,0.0
