@@ -1,0 +1,7 @@
+Evidence Area,Comparison Rule,Reason
+Feature Importance,Do Not Combine,"The random forest and decision tree use different targets, predictor sets, and model structures. Their importance percentages and ranks do not share a common meaning"
+SHAP Values,Do Not Combine,SHAP values explain output from a specific fitted model and target. Primary-model SHAP values cannot be transferred to the historical benchmark
+Performance Metrics,Do Not Combine,"The targets have substantially different prevalence, definitions, and evaluation baselines. Raw metric values are not directly comparable"
+Thresholds,Do Not Combine,"Each threshold belongs to its own target definition, score scale, and classification objective"
+Business Meaning,Keep Separate,The primary model ranks donors for current-year outreach. The benchmark describes historical donor-status classification only
+Final Comparison,Compare Conclusions Only,"The valid comparison is that the primary model provides a limited operational ranking signal, while the historical benchmark provides weak diagnostic discrimination"

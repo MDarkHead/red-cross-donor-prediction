@@ -1,0 +1,10 @@
+Conclusion Area,Primary Model Conclusion,Historical Benchmark Conclusion
+Target,Current fiscal year donor status,Historical donor status
+Analytical Role,Primary model for current-year donor prioritization,"Diagnostic historical-status benchmark, not the primary donor-prioritization model"
+Predictor Construction,"Uses donor age, gender identity, preferred address type, and aggregate historical donation amount, frequency, and recency measures",Uses restricted non-historical donor characteristics and derived indicators. Historical donation measures were excluded to prevent target leakage
+Output Meaning,Uncalibrated model output; Relative donor prioritization score,Diagnostic classification output for historical donor status
+Held Out Evidence,"Provided limited but operationally relevant ranking evidence, with the clearest donor concentration in the narrow highest-ranked outreach group",Weak Test Discrimination
+Appropriate Interpretation,Rank donors from higher to lower model scores for outreach planning,Use only as a diagnostic comparison of how restricted non-historical predictors relate to historical donor status
+Interpretation Safeguard,"Use score ordering, observed capture, and lift rather than probability claims",Excluded from the benchmark predictors because they define or closely encode historical donor status
+Inappropriate Use,Do not interpret a score such as 0.1000 as a literal 10% probability of donating,Do not use the benchmark as a substitute for the primary current-year outreach model
+Final Conclusion,"Retain as a relative outreach prioritization aid with capacity-specific validation, monitoring, and no probability claims",Retain only as a separate diagnostic benchmark because its weak test discrimination does not support operational donor prioritization
