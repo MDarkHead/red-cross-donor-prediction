@@ -1,0 +1,4 @@
+Audit Dimension,Source Feature,Group Construction,Model Role,Evaluation Rule
+Gender Identity,feature_gender_identity,Reported gender identity category,Model Predictor,Audited after scoring; no model inputs were changed
+Preferred Address Type,feature_preferred_address_type,Reported preferred address category,Model Predictor,Audited after scoring; no model inputs were changed
+Donor Age Group,donor_age,Age grouped into predefined ranges,Derived from Model Predictor,Audited after scoring; no model inputs were changed
