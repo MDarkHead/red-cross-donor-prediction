@@ -83,17 +83,15 @@ red-cross-donor-prediction/
 │   ├── modeling/
 │   └── private/
 │
-├── reports/
-│   ├── feature_dictionary.csv
-│   └── SummaryReports/
-│       ├── 01_data_cleaning.md
-│       ├── 02_exploratory_data_analysis.md
-│       ├── 03_dython_analysis.md
-│       ├── 04_feature_engineering.md
-│       ├── 05_classification_modeling.md
-│       └── 06_model_interpretability.md
-│
-└── visuals/
+└── reports/
+    ├── feature_dictionary.csv
+    └── SummaryReports/
+        ├── 01_data_cleaning.md
+        ├── 02_exploratory_data_analysis.md
+        ├── 03_dython_analysis.md
+        ├── 04_feature_engineering.md
+        ├── 05_classification_modeling.md
+        └── 06_model_interpretability.md
 ```
 
 The `outputs/interpretability/` directory contains the saved tables, figures, reporting manifests, dashboard catalog, and validation results produced during Phase 6. The complete asset manifest records repository relative paths and metadata for later reporting or dashboard use.
