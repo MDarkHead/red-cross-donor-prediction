@@ -1,0 +1,7 @@
+Validation Area,Checks,Passed,Failed,Validation Status
+Donor Alignment,7,7,0,Passed
+Exported Artifacts,8,8,0,Passed
+Fixed Threshold,4,4,0,Passed
+Model Outputs,4,4,0,Passed
+Ranks and Capacity Groups,14,14,0,Passed
+SHAP Calculations,4,4,0,Passed

@@ -1,0 +1,42 @@
+Validation Area,Validation Check,Expected,Observed,Tolerance,Status
+Donor Alignment,Final test target values were available,6881,6881 records from Final test predictions,Exact,Passed
+Donor Alignment,Final test predictions and transformed SHAP rows align,Identical donor or row ordering,Saved row count and row order,Exact,Passed
+Donor Alignment,Transformed and source SHAP rows align,Identical donor or row ordering,Saved row count and row order,Exact,Passed
+Donor Alignment,Final test record counts agree,6881,"Predictions=6881, Transformed SHAP=6881, Source SHAP=6881",Exact,Passed
+Donor Alignment,Final test record count matches the saved split,6881,6881,Exact,Passed
+Donor Alignment,Final test positive target count matches the saved split,381,381,Exact,Passed
+Donor Alignment,Final test donor identifiers are unique,6881,6881,Exact,Passed
+Model Outputs,Saved model scores are finite,All scores finite,6881,Exact,Passed
+Model Outputs,Saved model scores remain within zero and one,0 <= score <= 1,"Minimum=0.015831763418, Maximum=0.806496213748",Exact,Passed
+Model Outputs,Prediction and SHAP model outputs agree,Maximum difference within tolerance,0.000e+00,1e-10,Passed
+Model Outputs,Score distribution summary matches saved predictions,"Record count, mean, minimum, and maximum agree","Records=6881, Mean=0.055145027344, Minimum=0.015831763418, Maximum=0.806496213748",1e-10,Passed
+SHAP Calculations,Transformed SHAP feature count is correct,14,14,Exact,Passed
+SHAP Calculations,Source SHAP feature count is correct,8,8,Exact,Passed
+SHAP Calculations,SHAP additivity is preserved,Maximum error within SHAP tolerance,3.442e-15,1e-08,Passed
+SHAP Calculations,Source grouping preserves total SHAP contribution,Maximum difference within SHAP tolerance,4.441e-16,1e-08,Passed
+Fixed Threshold,Saved threshold classifications are reproducible,6881,6881,Exact,Passed
+Fixed Threshold,Threshold outcome counts match the saved summary,"{'True Positive': 38, 'False Positive': 526, 'False Negative': 343, 'True Negative': 5974}","{'True Positive': 38, 'False Positive': 526, 'False Negative': 343, 'True Negative': 5974}",Exact,Passed
+Fixed Threshold,Saved threshold metrics are reproducible,All metric differences within tolerance,1.110e-16,1e-10,Passed
+Fixed Threshold,Saved operating threshold matches the fixed threshold,0.065423686721555,0.065423686721555,1e-10,Passed
+Ranks and Capacity Groups,Donor ranks form a complete unique sequence,Unique ranks from 1 to 6881,"Minimum=1, Maximum=6881, Unique=6881",Exact,Passed
+Ranks and Capacity Groups,Scores do not increase as donor rank decreases,Scores ordered from highest to lowest,Maximum upward difference=0.000e+00,1e-10,Passed
+Ranks and Capacity Groups,Top 1% has one saved summary row,1,1,Exact,Passed
+Ranks and Capacity Groups,Top 1% summary is reproducible,"Records=69, Positives=13, Minimum score=0.109810444968","Records=69, Positives=13, Minimum score=0.109810444968",1e-10,Passed
+Ranks and Capacity Groups,Top 1% contains the smaller capacity group,Cumulative nested selection,"Previous=0, Current=69",Exact,Passed
+Ranks and Capacity Groups,Top 5% has one saved summary row,1,1,Exact,Passed
+Ranks and Capacity Groups,Top 5% summary is reproducible,"Records=345, Positives=23, Minimum score=0.076387968071","Records=345, Positives=23, Minimum score=0.076387968071",1e-10,Passed
+Ranks and Capacity Groups,Top 5% contains the smaller capacity group,Cumulative nested selection,"Previous=69, Current=345",Exact,Passed
+Ranks and Capacity Groups,Top 10% has one saved summary row,1,1,Exact,Passed
+Ranks and Capacity Groups,Top 10% summary is reproducible,"Records=689, Positives=46, Minimum score=0.063956454705","Records=689, Positives=46, Minimum score=0.063956454705",1e-10,Passed
+Ranks and Capacity Groups,Top 10% contains the smaller capacity group,Cumulative nested selection,"Previous=345, Current=689",Exact,Passed
+Ranks and Capacity Groups,Top 20% has one saved summary row,1,1,Exact,Passed
+Ranks and Capacity Groups,Top 20% summary is reproducible,"Records=1377, Positives=84, Minimum score=0.058358046108","Records=1377, Positives=84, Minimum score=0.058358046108",1e-10,Passed
+Ranks and Capacity Groups,Top 20% contains the smaller capacity group,Cumulative nested selection,"Previous=689, Current=1377",Exact,Passed
+Exported Artifacts,All manifest paths are repository relative,Every path is repository relative,1,Exact,Passed
+Exported Artifacts,All cataloged artifacts exist,96,96,Exact,Passed
+Exported Artifacts,Artifact file sizes match the manifest,96,96,Exact,Passed
+Exported Artifacts,Artifact checksums match the manifest,96,96,Exact,Passed
+Exported Artifacts,Table dimensions match the manifest,72,72,Exact,Passed
+Exported Artifacts,Dashboard catalog matches the asset manifest,96,96,Exact,Passed
+Exported Artifacts,Table schema covers every table artifact,72,72,Exact,Passed
+Exported Artifacts,JSON manifest matches the CSV manifest,96,96,Exact,Passed

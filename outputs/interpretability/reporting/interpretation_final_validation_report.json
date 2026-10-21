@@ -1,0 +1,341 @@
+{
+  "validation_status": "Passed",
+  "checks": 41,
+  "passed": 41,
+  "failed": 0,
+  "maximum_model_output_difference": 0.0,
+  "maximum_shap_additivity_error": 3.4416913763379853e-15,
+  "maximum_source_grouping_difference": 4.440892098500626e-16,
+  "maximum_threshold_metric_difference": 1.1102230246251565e-16,
+  "artifact_count": 96,
+  "details": [
+    {
+      "Validation Area": "Donor Alignment",
+      "Validation Check": "Final test target values were available",
+      "Expected": "6881",
+      "Observed": "6881 records from Final test predictions",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Donor Alignment",
+      "Validation Check": "Final test predictions and transformed SHAP rows align",
+      "Expected": "Identical donor or row ordering",
+      "Observed": "Saved row count and row order",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Donor Alignment",
+      "Validation Check": "Transformed and source SHAP rows align",
+      "Expected": "Identical donor or row ordering",
+      "Observed": "Saved row count and row order",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Donor Alignment",
+      "Validation Check": "Final test record counts agree",
+      "Expected": "6881",
+      "Observed": "Predictions=6881, Transformed SHAP=6881, Source SHAP=6881",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Donor Alignment",
+      "Validation Check": "Final test record count matches the saved split",
+      "Expected": "6881",
+      "Observed": "6881",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Donor Alignment",
+      "Validation Check": "Final test positive target count matches the saved split",
+      "Expected": "381",
+      "Observed": "381",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Donor Alignment",
+      "Validation Check": "Final test donor identifiers are unique",
+      "Expected": "6881",
+      "Observed": "6881",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Model Outputs",
+      "Validation Check": "Saved model scores are finite",
+      "Expected": "All scores finite",
+      "Observed": "6881",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Model Outputs",
+      "Validation Check": "Saved model scores remain within zero and one",
+      "Expected": "0 <= score <= 1",
+      "Observed": "Minimum=0.015831763418, Maximum=0.806496213748",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Model Outputs",
+      "Validation Check": "Prediction and SHAP model outputs agree",
+      "Expected": "Maximum difference within tolerance",
+      "Observed": "0.000e+00",
+      "Tolerance": "1e-10",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Model Outputs",
+      "Validation Check": "Score distribution summary matches saved predictions",
+      "Expected": "Record count, mean, minimum, and maximum agree",
+      "Observed": "Records=6881, Mean=0.055145027344, Minimum=0.015831763418, Maximum=0.806496213748",
+      "Tolerance": "1e-10",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "SHAP Calculations",
+      "Validation Check": "Transformed SHAP feature count is correct",
+      "Expected": "14",
+      "Observed": "14",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "SHAP Calculations",
+      "Validation Check": "Source SHAP feature count is correct",
+      "Expected": "8",
+      "Observed": "8",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "SHAP Calculations",
+      "Validation Check": "SHAP additivity is preserved",
+      "Expected": "Maximum error within SHAP tolerance",
+      "Observed": "3.442e-15",
+      "Tolerance": "1e-08",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "SHAP Calculations",
+      "Validation Check": "Source grouping preserves total SHAP contribution",
+      "Expected": "Maximum difference within SHAP tolerance",
+      "Observed": "4.441e-16",
+      "Tolerance": "1e-08",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Fixed Threshold",
+      "Validation Check": "Saved threshold classifications are reproducible",
+      "Expected": "6881",
+      "Observed": "6881",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Fixed Threshold",
+      "Validation Check": "Threshold outcome counts match the saved summary",
+      "Expected": "{'True Positive': 38, 'False Positive': 526, 'False Negative': 343, 'True Negative': 5974}",
+      "Observed": "{'True Positive': 38, 'False Positive': 526, 'False Negative': 343, 'True Negative': 5974}",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Fixed Threshold",
+      "Validation Check": "Saved threshold metrics are reproducible",
+      "Expected": "All metric differences within tolerance",
+      "Observed": "1.110e-16",
+      "Tolerance": "1e-10",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Fixed Threshold",
+      "Validation Check": "Saved operating threshold matches the fixed threshold",
+      "Expected": "0.065423686721555",
+      "Observed": "0.065423686721555",
+      "Tolerance": "1e-10",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Ranks and Capacity Groups",
+      "Validation Check": "Donor ranks form a complete unique sequence",
+      "Expected": "Unique ranks from 1 to 6881",
+      "Observed": "Minimum=1, Maximum=6881, Unique=6881",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Ranks and Capacity Groups",
+      "Validation Check": "Scores do not increase as donor rank decreases",
+      "Expected": "Scores ordered from highest to lowest",
+      "Observed": "Maximum upward difference=0.000e+00",
+      "Tolerance": "1e-10",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Ranks and Capacity Groups",
+      "Validation Check": "Top 1% has one saved summary row",
+      "Expected": "1",
+      "Observed": "1",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Ranks and Capacity Groups",
+      "Validation Check": "Top 1% summary is reproducible",
+      "Expected": "Records=69, Positives=13, Minimum score=0.109810444968",
+      "Observed": "Records=69, Positives=13, Minimum score=0.109810444968",
+      "Tolerance": "1e-10",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Ranks and Capacity Groups",
+      "Validation Check": "Top 1% contains the smaller capacity group",
+      "Expected": "Cumulative nested selection",
+      "Observed": "Previous=0, Current=69",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Ranks and Capacity Groups",
+      "Validation Check": "Top 5% has one saved summary row",
+      "Expected": "1",
+      "Observed": "1",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Ranks and Capacity Groups",
+      "Validation Check": "Top 5% summary is reproducible",
+      "Expected": "Records=345, Positives=23, Minimum score=0.076387968071",
+      "Observed": "Records=345, Positives=23, Minimum score=0.076387968071",
+      "Tolerance": "1e-10",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Ranks and Capacity Groups",
+      "Validation Check": "Top 5% contains the smaller capacity group",
+      "Expected": "Cumulative nested selection",
+      "Observed": "Previous=69, Current=345",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Ranks and Capacity Groups",
+      "Validation Check": "Top 10% has one saved summary row",
+      "Expected": "1",
+      "Observed": "1",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Ranks and Capacity Groups",
+      "Validation Check": "Top 10% summary is reproducible",
+      "Expected": "Records=689, Positives=46, Minimum score=0.063956454705",
+      "Observed": "Records=689, Positives=46, Minimum score=0.063956454705",
+      "Tolerance": "1e-10",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Ranks and Capacity Groups",
+      "Validation Check": "Top 10% contains the smaller capacity group",
+      "Expected": "Cumulative nested selection",
+      "Observed": "Previous=345, Current=689",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Ranks and Capacity Groups",
+      "Validation Check": "Top 20% has one saved summary row",
+      "Expected": "1",
+      "Observed": "1",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Ranks and Capacity Groups",
+      "Validation Check": "Top 20% summary is reproducible",
+      "Expected": "Records=1377, Positives=84, Minimum score=0.058358046108",
+      "Observed": "Records=1377, Positives=84, Minimum score=0.058358046108",
+      "Tolerance": "1e-10",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Ranks and Capacity Groups",
+      "Validation Check": "Top 20% contains the smaller capacity group",
+      "Expected": "Cumulative nested selection",
+      "Observed": "Previous=689, Current=1377",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Exported Artifacts",
+      "Validation Check": "All manifest paths are repository relative",
+      "Expected": "Every path is repository relative",
+      "Observed": "1",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Exported Artifacts",
+      "Validation Check": "All cataloged artifacts exist",
+      "Expected": "96",
+      "Observed": "96",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Exported Artifacts",
+      "Validation Check": "Artifact file sizes match the manifest",
+      "Expected": "96",
+      "Observed": "96",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Exported Artifacts",
+      "Validation Check": "Artifact checksums match the manifest",
+      "Expected": "96",
+      "Observed": "96",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Exported Artifacts",
+      "Validation Check": "Table dimensions match the manifest",
+      "Expected": "72",
+      "Observed": "72",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Exported Artifacts",
+      "Validation Check": "Dashboard catalog matches the asset manifest",
+      "Expected": "96",
+      "Observed": "96",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Exported Artifacts",
+      "Validation Check": "Table schema covers every table artifact",
+      "Expected": "72",
+      "Observed": "72",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    },
+    {
+      "Validation Area": "Exported Artifacts",
+      "Validation Check": "JSON manifest matches the CSV manifest",
+      "Expected": "96",
+      "Observed": "96",
+      "Tolerance": "Exact",
+      "Status": "Passed"
+    }
+  ]
+}
