@@ -1,6 +1,6 @@
 # Red Cross Donor Prediction
 ## Overview
-This project develops an end-to-end machine learning pipeline to support donor outreach for the DFW Red Cross Chapter. It uses historical donor and engagement data to rank records by relative outreach priority, helping teams focus limited resources on the donors most likely to respond.
+This project develops an end-to-end machine learning pipeline to support donor outreach for the DFW Red Cross Chapter. It uses historical donor and engagement data to rank records by relative outreach priority, helping teams focus limited resources on the donors for outreach prioritization.
 
 The final primary model predicts current fiscal year donor status using donor age, gender identity, preferred address type, and aggregate donation behavior from the five completed historical fiscal years. Its output is an uncalibrated prioritization score, not a literal probability of donating.
 
@@ -12,7 +12,7 @@ The final primary model predicts current fiscal year donor status using donor ag
 - Phase 4: Feature Engineering ✅
 - Phase 5: Classification Modeling ✅
 - Phase 6: Model Interpretability & Insights ✅
-- Phase 7: Portfolio Packaging & Final Deliverables
+- Phase 7: Portfolio Packaging & Final Deliverables ✅
 
 ## Key Results
 The final analytical dataset contains 34,403 donor records. The held out final test set contains 6,881 records, including 381 positive targets for a donor rate of 5.54%.
