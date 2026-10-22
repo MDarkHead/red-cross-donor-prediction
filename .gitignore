@@ -41,3 +41,10 @@ temp/
 
 # Private donor-level outputs
 outputs/private/
+# Private donor-level interpretability exports
+/outputs/interpretability/tables/primary_shap_values_final_test.csv
+/outputs/interpretability/tables/primary_shap_values_source_final_test.csv
+/outputs/interpretability/tables/primary_local_explanation_cases.csv
+/outputs/interpretability/tables/primary_local_shap_contributions.csv
+/outputs/interpretability/tables/primary_local_shap_top_drivers.csv
+/outputs/interpretability/tables/primary_shap_interaction_values_sample.csv
